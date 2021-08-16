@@ -1,7 +1,6 @@
 import sys
 import random
 user1_ans=input("do u want to chosse rock paper scissor : " )
-#user2_ans=input("%s do u want to chosse rock paper scissor"  %user2)
 comp=random.choice(['rock','paper','scissor'])
 def fun(user1,user2):
 	if user1==comp:
